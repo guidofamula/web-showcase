@@ -44,7 +44,10 @@ const SectionWrapper = ({
 						{description}
 					</p>
 					{showBtn && (
-						<Button assetUrl={assets.expo} Link='deployed nft marketplace rn' />
+						<Button
+							assetUrl={assets.expo}
+							Link='https://expo.dev/artifacts/eas/wU1KWQMpVeDMqUGjBpe9sY.aab'
+						/>
 					)}
 				</div>
 				<div className={`flex-1 ${styles.flexCenter} p-8 sm:px-0`}>
